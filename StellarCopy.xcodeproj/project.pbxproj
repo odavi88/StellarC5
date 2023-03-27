@@ -14,6 +14,8 @@
 		AB4288A229D2122D00889727 /* StellarCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288A129D2122D00889727 /* StellarCopyTests.swift */; };
 		AB4288AC29D2122D00889727 /* StellarCopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288AB29D2122D00889727 /* StellarCopyUITests.swift */; };
 		AB4288AE29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288AD29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift */; };
+		AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288BC29D21E4A00889727 /* MainTabView.swift */; };
+		AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288BE29D21E9B00889727 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AB4288A729D2122D00889727 /* StellarCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4288AB29D2122D00889727 /* StellarCopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyUITests.swift; sourceTree = "<group>"; };
 		AB4288AD29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB4288BC29D21E4A00889727 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AB4288BE29D21E9B00889727 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,8 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
+				AB4288BB29D21DFF00889727 /* Views */,
 				AB42889029D2122B00889727 /* StellarCopyApp.swift */,
-				AB42889229D2122B00889727 /* ContentView.swift */,
 				AB42889429D2122D00889727 /* Assets.xcassets */,
 				AB42889629D2122D00889727 /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				AB4288AD29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift */,
 			);
 			path = StellarCopyUITests;
+			sourceTree = "<group>";
+		};
+		AB4288BB29D21DFF00889727 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB42889229D2122B00889727 /* ContentView.swift */,
+				AB4288BC29D21E4A00889727 /* MainTabView.swift */,
+				AB4288BE29D21E9B00889727 /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,
+				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
