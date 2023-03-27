@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Moon : Codable {
-    var id = UUID()
+struct Moon : Identifiable,Codable {
+    var id: String
     var moonrise: String
 }
