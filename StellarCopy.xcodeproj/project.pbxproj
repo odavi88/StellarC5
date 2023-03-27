@@ -19,6 +19,7 @@
 		AB4288C129D2215700889727 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C029D2215700889727 /* CalendarView.swift */; };
 		AB4288C329D2223300889727 /* RitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C229D2223300889727 /* RitualView.swift */; };
 		AB4288C529D222C600889727 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C429D222C600889727 /* ChartView.swift */; };
+		AB4288C729D22E5500889727 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C629D22E5500889727 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AB4288C029D2215700889727 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		AB4288C229D2223300889727 /* RitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualView.swift; sourceTree = "<group>"; };
 		AB4288C429D222C600889727 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		AB4288C629D22E5500889727 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				AB4288C029D2215700889727 /* CalendarView.swift */,
 				AB4288C229D2223300889727 /* RitualView.swift */,
 				AB4288C429D222C600889727 /* ChartView.swift */,
+				AB4288C629D22E5500889727 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				AB4288C529D222C600889727 /* ChartView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,
 				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
+				AB4288C729D22E5500889727 /* LoginView.swift in Sources */,
 				AB4288C329D2223300889727 /* RitualView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

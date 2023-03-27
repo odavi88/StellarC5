@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var userIsLoggedIn = false
+    
     var body: some View {
-        MainTabView()
+        
+        userIsLoggedIn ? AnyView(MainTabView()) : AnyView(LoginView())
+        
     }
 }
 
