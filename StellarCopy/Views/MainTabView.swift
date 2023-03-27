@@ -23,17 +23,24 @@ struct MainTabView: View {
             CalendarView().tabItem {
                 VStack {
                     Image(systemName:"calendar")
-                    Text(verbatim: "Calendar View")
+                    Text(verbatim: "Calendar")
                 }
             }.tag(2)
             
             
             RitualView().tabItem {
                 VStack {
-                    Image(systemName:"calendar")
-                    Text(verbatim: "Calendar View")
+                    Image(systemName:"aqi.low")
+                    Text(verbatim: "Rituals")
                 }
             }.tag(3)
+            
+            ChartView().tabItem {
+                VStack {
+                    Image(systemName:"chart.bar")
+                    Text(verbatim: "Chart")
+                }
+            }.tag(4)
           
           
         }
