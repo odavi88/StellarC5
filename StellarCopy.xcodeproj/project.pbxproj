@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C029D23504008A4994 /* HoroscopeViewModel.swift */; };
+		13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C229D2356F008A4994 /* Horoscope.swift */; };
 		AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889029D2122B00889727 /* StellarCopyApp.swift */; };
 		AB42889329D2122B00889727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889229D2122B00889727 /* ContentView.swift */; };
 		AB42889529D2122D00889727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42889429D2122D00889727 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		13BE93C029D23504008A4994 /* HoroscopeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeViewModel.swift; sourceTree = "<group>"; };
+		13BE93C229D2356F008A4994 /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 		AB42888D29D2122B00889727 /* StellarCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42889029D2122B00889727 /* StellarCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyApp.swift; sourceTree = "<group>"; };
 		AB42889229D2122B00889727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		13BE93BE29D234C5008A4994 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				13BE93C229D2356F008A4994 /* Horoscope.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
 				13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */,
 				AB4288C729D22E5500889727 /* LoginView.swift in Sources */,
+				13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */,
 				AB4288C329D2223300889727 /* RitualView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
