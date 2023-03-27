@@ -16,6 +16,7 @@
 		AB4288AE29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288AD29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift */; };
 		AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288BC29D21E4A00889727 /* MainTabView.swift */; };
 		AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288BE29D21E9B00889727 /* ProfileView.swift */; };
+		AB4288C129D2215700889727 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C029D2215700889727 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AB4288AD29D2122D00889727 /* StellarCopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB4288BC29D21E4A00889727 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		AB4288BE29D21E9B00889727 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AB4288C029D2215700889727 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				AB42889229D2122B00889727 /* ContentView.swift */,
 				AB4288BC29D21E4A00889727 /* MainTabView.swift */,
 				AB4288BE29D21E9B00889727 /* ProfileView.swift */,
+				AB4288C029D2215700889727 /* CalendarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4288C129D2215700889727 /* CalendarView.swift in Sources */,
 				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,

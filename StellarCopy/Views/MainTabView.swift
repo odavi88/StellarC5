@@ -18,6 +18,14 @@ struct MainTabView: View {
                     Text(verbatim: "Profile")
                 }
             }.tag(1)
+            
+            
+            CalendarView().tabItem {
+                VStack {
+                    Image(systemName:"calendar")
+                    Text(verbatim: "Calendar View")
+                }
+            }.tag(1)
           
           
         }
