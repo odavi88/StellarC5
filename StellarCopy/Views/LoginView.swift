@@ -17,7 +17,7 @@ struct LoginView: View {
     
     
     var body: some View {
-        VStack
+        Form
         {
             TextField("First name:", text: $firstName)
             TextField("Last name:", text: $lastName)
