@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @StateObject var moonModel = MoonViewModel()
+    @State var firstName = ""
+    @State var lastName = ""
+    //MARK: We need to change this to Swift's 'Date' type
+    @State var date = ""
+    
+    
     var body: some View {
-        Text("Login View")
+        VStack
+        {
+            TextField("First name:", text: $firstName)
+            TextField("Last name:", text: $lastName)
+            TextField("Date of Birth", text: $date)
+        }
+        .task {
+            await self.moonModel.reload()
+        }
     }
 }
 
