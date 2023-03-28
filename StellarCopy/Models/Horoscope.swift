@@ -9,7 +9,7 @@ import Foundation
 
 
 struct Prediction : Codable{
-    var id = UUID()
+  //  var id = UUID()
 
     var personal_life : String
     
@@ -22,7 +22,7 @@ struct Prediction : Codable{
 
 
 struct Horoscope: Codable {
-    var id = UUID()
+    //var id = UUID()
     var prediction_date: String
     
     var status : Bool
