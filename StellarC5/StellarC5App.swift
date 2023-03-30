@@ -11,7 +11,9 @@ import SwiftUI
 struct StellarC5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }

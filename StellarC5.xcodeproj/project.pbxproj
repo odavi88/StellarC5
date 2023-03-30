@@ -12,7 +12,25 @@
 		5D8B30F029D21B570088824F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B30EF29D21B570088824F /* Assets.xcassets */; };
 		5D8B30F329D21B570088824F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B30F229D21B570088824F /* Preview Assets.xcassets */; };
 		5D8B30FA29D21B820088824F /* HorescopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B30F929D21B820088824F /* HorescopeModel.swift */; };
-		5D8B30FC29D22E9D0088824F /* LunarCalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B30FB29D22E9D0088824F /* LunarCalView.swift */; };
+		5D8B30FE29D25B6F0088824F /* DarkModeColorChangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B30FD29D25B6F0088824F /* DarkModeColorChangeTest.swift */; };
+		5D8B310429D281BF0088824F /* HoroscopeCalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B310329D281BF0088824F /* HoroscopeCalView.swift */; };
+		5D8B310629D320FB0088824F /* Red Moon Rising 3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B310529D320FB0088824F /* Red Moon Rising 3.otf */; };
+		5D8B310829D32BA60088824F /* DailyHoroscopeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B310729D32BA60088824F /* DailyHoroscopeTextView.swift */; };
+		5D8B310A29D35A340088824F /* Hubballi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B310929D35A340088824F /* Hubballi-Regular.ttf */; };
+		5D8B310D29D361C50088824F /* LunarEventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B310C29D361C50088824F /* LunarEventDetail.swift */; };
+		5D8B311029D362550088824F /* LunarEventCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B310F29D362550088824F /* LunarEventCapsuleView.swift */; };
+		5D8B311229D36FC20088824F /* HoroscopeIconButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B311129D36FC20088824F /* HoroscopeIconButtons.swift */; };
+		5D8B311429D374DE0088824F /* StellarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B311329D374DE0088824F /* StellarTitleView.swift */; };
+		5D8B311629D384780088824F /* GoldBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B311529D384780088824F /* GoldBarView.swift */; };
+		5D8B311829D38C700088824F /* TalonsLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B311729D38C700088824F /* TalonsLeaves.swift */; };
+		5DFE3D4329D3AE8500F7373E /* infoInputTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4229D3AE8500F7373E /* infoInputTextFields.swift */; };
+		5DFE3D4529D4AD9E00F7373E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4429D4AD9E00F7373E /* ChartView.swift */; };
+		5DFE3D4729D4CF4B00F7373E /* RomCompatabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4629D4CF4B00F7373E /* RomCompatabilityView.swift */; };
+		5DFE3D4B29D4D32100F7373E /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4A29D4D32100F7373E /* ChartModel.swift */; };
+		5DFE3D4D29D50C8300F7373E /* ChartInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4C29D50C8300F7373E /* ChartInfoView.swift */; };
+		5DFE3D5029D5D1F300F7373E /* CareerHoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D4F29D5D1F300F7373E /* CareerHoro.swift */; };
+		5DFE3D5229D5D2AD00F7373E /* HistoryHoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5129D5D2AD00F7373E /* HistoryHoro.swift */; };
+		5DFE3D5429D5D76300F7373E /* HouseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5329D5D76300F7373E /* HouseInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +40,26 @@
 		5D8B30EF29D21B570088824F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D8B30F229D21B570088824F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D8B30F929D21B820088824F /* HorescopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorescopeModel.swift; sourceTree = "<group>"; };
-		5D8B30FB29D22E9D0088824F /* LunarCalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarCalView.swift; sourceTree = "<group>"; };
+		5D8B30FD29D25B6F0088824F /* DarkModeColorChangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeColorChangeTest.swift; sourceTree = "<group>"; };
+		5D8B310229D274630088824F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8B310329D281BF0088824F /* HoroscopeCalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeCalView.swift; sourceTree = "<group>"; };
+		5D8B310529D320FB0088824F /* Red Moon Rising 3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red Moon Rising 3.otf"; sourceTree = "<group>"; };
+		5D8B310729D32BA60088824F /* DailyHoroscopeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHoroscopeTextView.swift; sourceTree = "<group>"; };
+		5D8B310929D35A340088824F /* Hubballi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hubballi-Regular.ttf"; sourceTree = "<group>"; };
+		5D8B310C29D361C50088824F /* LunarEventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarEventDetail.swift; sourceTree = "<group>"; };
+		5D8B310F29D362550088824F /* LunarEventCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarEventCapsuleView.swift; sourceTree = "<group>"; };
+		5D8B311129D36FC20088824F /* HoroscopeIconButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeIconButtons.swift; sourceTree = "<group>"; };
+		5D8B311329D374DE0088824F /* StellarTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarTitleView.swift; sourceTree = "<group>"; };
+		5D8B311529D384780088824F /* GoldBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldBarView.swift; sourceTree = "<group>"; };
+		5D8B311729D38C700088824F /* TalonsLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonsLeaves.swift; sourceTree = "<group>"; };
+		5DFE3D4229D3AE8500F7373E /* infoInputTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoInputTextFields.swift; sourceTree = "<group>"; };
+		5DFE3D4429D4AD9E00F7373E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5DFE3D4629D4CF4B00F7373E /* RomCompatabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomCompatabilityView.swift; sourceTree = "<group>"; };
+		5DFE3D4A29D4D32100F7373E /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		5DFE3D4C29D50C8300F7373E /* ChartInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInfoView.swift; sourceTree = "<group>"; };
+		5DFE3D4F29D5D1F300F7373E /* CareerHoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHoro.swift; sourceTree = "<group>"; };
+		5DFE3D5129D5D2AD00F7373E /* HistoryHoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryHoro.swift; sourceTree = "<group>"; };
+		5DFE3D5329D5D76300F7373E /* HouseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,7 @@
 		5D8B30DF29D21B560088824F = {
 			isa = PBXGroup;
 			children = (
+				5D8B30FF29D26D380088824F /* Font */,
 				5D8B30EA29D21B560088824F /* StellarC5 */,
 				5D8B30E929D21B560088824F /* Products */,
 			);
@@ -57,9 +95,12 @@
 			children = (
 				5D8B30EB29D21B560088824F /* StellarC5App.swift */,
 				5D8B30ED29D21B560088824F /* ContentView.swift */,
-				5D8B30FB29D22E9D0088824F /* LunarCalView.swift */,
-				5D8B30F929D21B820088824F /* HorescopeModel.swift */,
+				5D8B310E29D362360088824F /* Components */,
+				5D8B310B29D361830088824F /* Models */,
+				5D8B310329D281BF0088824F /* HoroscopeCalView.swift */,
+				5D8B30FD29D25B6F0088824F /* DarkModeColorChangeTest.swift */,
 				5D8B30EF29D21B570088824F /* Assets.xcassets */,
+				5D8B310229D274630088824F /* Info.plist */,
 				5D8B30F129D21B570088824F /* Preview Content */,
 			);
 			path = StellarC5;
@@ -71,6 +112,61 @@
 				5D8B30F229D21B570088824F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D8B30FF29D26D380088824F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B310929D35A340088824F /* Hubballi-Regular.ttf */,
+				5D8B310529D320FB0088824F /* Red Moon Rising 3.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5D8B310B29D361830088824F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B30F929D21B820088824F /* HorescopeModel.swift */,
+				5D8B310C29D361C50088824F /* LunarEventDetail.swift */,
+				5DFE3D4A29D4D32100F7373E /* ChartModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D8B310E29D362360088824F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE3D4829D4D25C00F7373E /* ChartComponents */,
+				5D8B311329D374DE0088824F /* StellarTitleView.swift */,
+				5DFE3D4E29D5CFBD00F7373E /* HoroComponents */,
+				5D8B311529D384780088824F /* GoldBarView.swift */,
+				5D8B311729D38C700088824F /* TalonsLeaves.swift */,
+				5DFE3D4229D3AE8500F7373E /* infoInputTextFields.swift */,
+				5D8B310F29D362550088824F /* LunarEventCapsuleView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DFE3D4829D4D25C00F7373E /* ChartComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE3D4429D4AD9E00F7373E /* ChartView.swift */,
+				5DFE3D4C29D50C8300F7373E /* ChartInfoView.swift */,
+				5DFE3D5329D5D76300F7373E /* HouseInfoView.swift */,
+			);
+			path = ChartComponents;
+			sourceTree = "<group>";
+		};
+		5DFE3D4E29D5CFBD00F7373E /* HoroComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B310729D32BA60088824F /* DailyHoroscopeTextView.swift */,
+				5DFE3D4629D4CF4B00F7373E /* RomCompatabilityView.swift */,
+				5DFE3D4F29D5D1F300F7373E /* CareerHoro.swift */,
+				5DFE3D5129D5D2AD00F7373E /* HistoryHoro.swift */,
+				5D8B311129D36FC20088824F /* HoroscopeIconButtons.swift */,
+			);
+			path = HoroComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8B30F329D21B570088824F /* Preview Assets.xcassets in Resources */,
+				5D8B310629D320FB0088824F /* Red Moon Rising 3.otf in Resources */,
+				5D8B310A29D35A340088824F /* Hubballi-Regular.ttf in Resources */,
 				5D8B30F029D21B570088824F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFE3D4D29D50C8300F7373E /* ChartInfoView.swift in Sources */,
+				5DFE3D5429D5D76300F7373E /* HouseInfoView.swift in Sources */,
+				5DFE3D4329D3AE8500F7373E /* infoInputTextFields.swift in Sources */,
+				5D8B310D29D361C50088824F /* LunarEventDetail.swift in Sources */,
+				5D8B310829D32BA60088824F /* DailyHoroscopeTextView.swift in Sources */,
+				5D8B311429D374DE0088824F /* StellarTitleView.swift in Sources */,
+				5D8B310429D281BF0088824F /* HoroscopeCalView.swift in Sources */,
+				5DFE3D4729D4CF4B00F7373E /* RomCompatabilityView.swift in Sources */,
+				5D8B311229D36FC20088824F /* HoroscopeIconButtons.swift in Sources */,
+				5D8B311029D362550088824F /* LunarEventCapsuleView.swift in Sources */,
+				5DFE3D5029D5D1F300F7373E /* CareerHoro.swift in Sources */,
 				5D8B30EE29D21B560088824F /* ContentView.swift in Sources */,
+				5DFE3D4529D4AD9E00F7373E /* ChartView.swift in Sources */,
 				5D8B30FA29D21B820088824F /* HorescopeModel.swift in Sources */,
-				5D8B30FC29D22E9D0088824F /* LunarCalView.swift in Sources */,
 				5D8B30EC29D21B560088824F /* StellarC5App.swift in Sources */,
+				5DFE3D5229D5D2AD00F7373E /* HistoryHoro.swift in Sources */,
+				5D8B311629D384780088824F /* GoldBarView.swift in Sources */,
+				5D8B30FE29D25B6F0088824F /* DarkModeColorChangeTest.swift in Sources */,
+				5DFE3D4B29D4D32100F7373E /* ChartModel.swift in Sources */,
+				5D8B311829D38C700088824F /* TalonsLeaves.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +392,13 @@
 				DEVELOPMENT_TEAM = UUFQ8XM5Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StellarC5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,11 +423,13 @@
 				DEVELOPMENT_TEAM = UUFQ8XM5Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StellarC5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
