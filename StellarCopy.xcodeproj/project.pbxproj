@@ -25,6 +25,7 @@
 		AB4288C729D22E5500889727 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C629D22E5500889727 /* LoginView.swift */; };
 		AB4288CE29D2385500889727 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288CD29D2385500889727 /* Moon.swift */; };
 		AB4288D029D238C500889727 /* MoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288CF29D238C500889727 /* MoonViewModel.swift */; };
+		ABD7FF8829D61A620012E741 /* RitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7FF8729D61A620012E741 /* RitualView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		AB4288CD29D2385500889727 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		AB4288CF29D238C500889727 /* MoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewModel.swift; sourceTree = "<group>"; };
 		ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StellarCopy.entitlements; sourceTree = "<group>"; };
+		ABD7FF8729D61A620012E741 /* RitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				AB42889229D2122B00889727 /* ContentView.swift */,
 				AB4288BC29D21E4A00889727 /* MainTabView.swift */,
+				ABD7FF8729D61A620012E741 /* RitualView.swift */,
 				AB4288BE29D21E9B00889727 /* ProfileView.swift */,
 				AB4288C029D2215700889727 /* CalendarView.swift */,
 				AB4288C429D222C600889727 /* ChartView.swift */,
@@ -325,6 +328,7 @@
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB4288C529D222C600889727 /* ChartView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,
+				ABD7FF8829D61A620012E741 /* RitualView.swift in Sources */,
 				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
 				13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */,
 				AB4288C729D22E5500889727 /* LoginView.swift in Sources */,
