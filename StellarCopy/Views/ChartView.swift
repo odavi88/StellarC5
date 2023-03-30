@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ChartView: View {
+    @EnvironmentObject var userViewModel: UserViewModel
+
     var body: some View {
         Text("Chart View")
     }
@@ -15,6 +17,7 @@ struct ChartView: View {
 
 struct ChartView_Previews: PreviewProvider {
     static var previews: some View {
-        ChartView()
+        ChartView()            .environmentObject(UserViewModel())
+
     }
 }

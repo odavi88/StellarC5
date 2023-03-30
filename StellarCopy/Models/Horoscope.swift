@@ -12,6 +12,7 @@ struct Prediction : Codable{
   //  var id = UUID()
 
     var personal_life : String
+    var health : String
     
     var profession : String
     

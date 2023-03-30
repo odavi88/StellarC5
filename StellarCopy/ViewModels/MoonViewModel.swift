@@ -17,7 +17,7 @@ class MoonViewModel: ObservableObject {
         let url = URL(string: "https://api.qweather.com/v7/astronomy/moon?[params]")!
         let urlSession = URLSession.shared
         do {
-            let (data, response) = try await urlSession.data(from: url)
+            let (data, _) = try await urlSession.data(from: url)
             print(try JSONDecoder().decode([Moon].self, from: data))
             self.moons = try JSONDecoder().decode([Moon].self, from: data)
         }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CalendarView: View {
+    @EnvironmentObject var userViewModel: UserViewModel
+
     var body: some View {
         Text("Calendar View")
     }
@@ -15,6 +17,7 @@ struct CalendarView: View {
 
 struct CalendarView_Previews: PreviewProvider {
     static var previews: some View {
-        CalendarView()
+        CalendarView()            .environmentObject(UserViewModel())
+
     }
 }
