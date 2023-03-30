@@ -30,8 +30,10 @@ struct LoginView: View {
             Text(horoscopeModel.horoscope.prediction.personal_life)
         }
         .task {
-            await self.horoscopeModel.apiCall()
+            await self.moonModel.loadMoonPhase()
         }
+        
+        
     }
 }
 

@@ -64,6 +64,7 @@
 		AB4288C629D22E5500889727 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AB4288CD29D2385500889727 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		AB4288CF29D238C500889727 /* MoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewModel.swift; sourceTree = "<group>"; };
+		ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StellarCopy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
+				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
 				13BE93BF29D234CE008A4994 /* ViewModels */,
 				13BE93BE29D234C5008A4994 /* Models */,
 				AB4288BB29D21DFF00889727 /* Views */,
@@ -478,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StellarCopy/StellarCopy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StellarCopy/Preview Content\"";
@@ -507,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StellarCopy/StellarCopy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StellarCopy/Preview Content\"";
