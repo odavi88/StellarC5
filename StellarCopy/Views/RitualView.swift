@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RitualView: View {
+    @EnvironmentObject var userViewModel: UserViewModel
+
     var body: some View {
         Text("Ritual View")
     }
@@ -15,6 +17,7 @@ struct RitualView: View {
 
 struct RitualView_Previews: PreviewProvider {
     static var previews: some View {
-        RitualView()
+        RitualView()            .environmentObject(UserViewModel())
+
     }
 }

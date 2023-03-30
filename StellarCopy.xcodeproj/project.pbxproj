@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C029D23504008A4994 /* HoroscopeViewModel.swift */; };
 		13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C229D2356F008A4994 /* Horoscope.swift */; };
+		13BE93C529D3829B008A4994 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C429D3829B008A4994 /* User.swift */; };
+		13BE93C729D4A84E008A4994 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C629D4A84E008A4994 /* UserViewModel.swift */; };
 		AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889029D2122B00889727 /* StellarCopyApp.swift */; };
 		AB42889329D2122B00889727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889229D2122B00889727 /* ContentView.swift */; };
 		AB42889529D2122D00889727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42889429D2122D00889727 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		13BE93C029D23504008A4994 /* HoroscopeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeViewModel.swift; sourceTree = "<group>"; };
 		13BE93C229D2356F008A4994 /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
+		13BE93C429D3829B008A4994 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		13BE93C629D4A84E008A4994 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		AB42888D29D2122B00889727 /* StellarCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42889029D2122B00889727 /* StellarCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyApp.swift; sourceTree = "<group>"; };
 		AB42889229D2122B00889727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 			children = (
 				13BE93C229D2356F008A4994 /* Horoscope.swift */,
 				AB4288CD29D2385500889727 /* Moon.swift */,
+				13BE93C429D3829B008A4994 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			children = (
 				13BE93C029D23504008A4994 /* HoroscopeViewModel.swift */,
 				AB4288CF29D238C500889727 /* MoonViewModel.swift */,
+				13BE93C629D4A84E008A4994 /* UserViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -313,10 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BE93C529D3829B008A4994 /* User.swift in Sources */,
 				AB4288C129D2215700889727 /* CalendarView.swift in Sources */,
 				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB4288CE29D2385500889727 /* Moon.swift in Sources */,
 				AB4288D029D238C500889727 /* MoonViewModel.swift in Sources */,
+				13BE93C729D4A84E008A4994 /* UserViewModel.swift in Sources */,
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB4288C529D222C600889727 /* ChartView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,

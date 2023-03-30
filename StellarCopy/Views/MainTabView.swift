@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @EnvironmentObject var userViewModel: UserViewModel
+
     var body: some View {
         
         
@@ -50,5 +52,6 @@ struct MainTabView: View {
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
+            .environmentObject(UserViewModel())
     }
 }

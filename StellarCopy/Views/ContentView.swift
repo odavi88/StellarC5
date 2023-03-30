@@ -1,4 +1,3 @@
-//
 //  ContentView.swift
 //  StellarCopy
 //
@@ -8,18 +7,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State var userIsLoggedIn = false
+    @EnvironmentObject var userViewModel: UserViewModel
+
+    @State private var userIsLoggedIn: Bool = false
     
     var body: some View {
-        
-        userIsLoggedIn ? AnyView(MainTabView()) : AnyView(LoginView())
-        
+        VStack {
+            userIsLoggedIn ? AnyView(MainTabView()) : AnyView(LoginView(userIsLoggedIn: self.$userIsLoggedIn))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView()            .environmentObject(UserViewModel())
+
     }
 }
